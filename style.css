@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-size: 2rem;
+}
+h2{
+text-align: center;
+margin: 0 auto;
+}
+form {
+  margin: 40px auto;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  width: max-content;
+  background: #eee;
+}
+
+form input,
+form select,
+form button {
+  padding: 8px 12px;
+  font-size: 1.5rem;
+}
+
+.result {
+  margin: 0 auto;
+  width: max-content;
+}
+.error {
+  color: red;
+}
+.success{
+  color: green;
+}
